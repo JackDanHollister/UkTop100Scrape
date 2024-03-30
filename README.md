@@ -3,12 +3,23 @@ This project scrapes data for every top 100 song from the start of the UK Top 10
 
 Please note that the first couple of years and the total number of songs it follows each week fluctuates quite dramatically, starting at 15, dropping to 13, and then eventually making its way up to reviewing the top 100.
 
+You should be able to run this code directly (except for a few packages that need to be installed beforehand).
+
 
 ``` python
+
+
+####### UK top 100 weekly songs data scrape script #######
+
+
+### Imports ###
 
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+
+
+### Main code ###
 
 def extract_week_data(url):
     try:
@@ -77,7 +88,7 @@ start_date = pd.Timestamp("1952-11-14")
 end_date = pd.Timestamp("2024-03-29")
 
 # Create an Excel writer object for exporting data
-excel_file = pd.ExcelWriter("top_100_songs_1952_to_2024.xlsx", engine="xlsxwriter")
+excel_file = pd.ExcelWriter("top_100_songs_1952_to_2024.xlsx", engine="xlsxwriter") # This saves the xlsx to the current working directory. Change at your leisure
 
 current_date = start_date
 while current_date <= end_date:
