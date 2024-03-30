@@ -1,5 +1,7 @@
 # UkTop100Scrape
-This project scrapes data for every top 100 song from the start of the UK Top 100 charts to the latest week, capturing decades of music history in detail.
+This project scrapes data for every top 100 song from the start of the UK Top 100 charts to the latest week, capturing decades of music history in detail. This saves each week's data into its own sheet within an Excel file.
+
+Please note that the first couple of years and the total number of songs it follows each week fluctuates quite dramatically, starting at 15, dropping to 13, and then eventually making its way up to reviewing the top 100.
 
 
 ``` python
