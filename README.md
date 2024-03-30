@@ -1,2 +1,2 @@
 # UkTop100Scrape
-This project is a comprehensive data scraping endeavor that systematically downloads information on all top 100 songs from the UK Top 100 charts weekly, from its inception to the most recent update, offering a detailed view of musical trends and artist performances over the years.
+This project scrapes data for every top 100 song from the start of the UK Top 100 charts to the latest week, capturing decades of music history in detail.
