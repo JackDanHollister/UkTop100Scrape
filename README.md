@@ -1,6 +1,8 @@
 # UkTop100Scrape
 This project scrapes data for every top 100 song from the start of the UK Top 100 charts (back in 1952) to the latest week, capturing decades of music history in detail. This saves each week's data into its own sheet within an Excel file.
 
+This is designed to save the song title, artist, current position for each week, position the previous week, peak, and total weeks on the chart. Since it's a lot of data and can take some time to download, I've set up error handling that allows it to skip a week if there's an error instead of just stopping (which it did for me many times).
+
 Please note that the first couple of years and the total number of songs it follows each week fluctuates quite dramatically, starting at 15, dropping to 13, and then eventually making its way up to reviewing the top 100.
 
 You should be able to run this code directly (except for a few packages that need to be installed beforehand).
