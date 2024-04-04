@@ -1,5 +1,5 @@
 # UkTop100Scrape
-This project consists of two versions: one that scrapes data for every top 100 song from the start of the UK Top 100 charts (back in 1952) to the latest week,and the other scrapes data for every top 100 album from the start of the album charts (back in 1956), again to the latest week, capturing decades of music history in detail. This saves each week's data into its own sheet within an Excel file.
+This project consists of two versions: one that scrapes data for every weekly UK top 100 singles from the start of the single charts (back in 1952) to the latest week, and the other scrapes data for every weekly top 100 albums from the start of the album charts (back in 1956), again to the latest week, capturing decades of music history in detail. This saves each week's data into its own sheet within an Excel file.
 
 This is designed to save the song (or album) title, artist, current position for each week, position the previous week, peak, and total weeks on the chart. Since it's a lot of data and can take some time to download, I've set up error handling that allows it to skip a week if there's an error instead of just stopping (which it did for me many times).
 
