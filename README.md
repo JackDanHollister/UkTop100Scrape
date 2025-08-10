@@ -4,7 +4,7 @@
 
 ---
 
-A little project I made where I set out to see whether I could scrape and organise all the UK top 100 single and album data from its start in 1953 to the current date (my last run was early August 2025).
+A little project I made where I set out to see whether I could scrape and organise all the UK top 100 single and album chart data from its start in 1953 to the current date (my last run was early August 2025).
 
 Each week's data is saved to its own Excel sheet, capturing decades of music history with song/album title, artist, position, previous week position, peak position, and weeks on chart.
 
